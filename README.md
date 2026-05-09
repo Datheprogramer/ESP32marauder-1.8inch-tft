@@ -7,4 +7,4 @@ some are broken/ outdated
 -- (for 1.8inch tft schematics, use my user_setup
 
 libs for build firmware : <a href="https://github.com/justcallmekoko/ESP32Marauder/tree/master/esp32_marauder/libraries">here<a>
-Arduino version i use (NEDDED) ; 
+Arduino version i use (NEDDED) ; <a href="https://www.arduino.cc/en/software/">here(scroll down and click on download legacy arduino (ver 1.8.19))<a>

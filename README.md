@@ -1,4 +1,6 @@
-# ESP32Marauder — My Custom Builds
+# ESP32Marauder — My Custom Builds - REnamed to ESP32marauder-1.8inch-tft
+
+just like the name, i focus on marauder for 1.8inch displays
 
 A collection of my custom builds for [ESP32 Marauder](https://github.com/justcallmekoko/ESP32Marauder) (j4f).
 

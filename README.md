@@ -9,10 +9,11 @@ A collection of my custom builds for [ESP32 Marauder](https://github.com/justcal
 ---
 
 ## Important Notes
-
-- No libraries are included in this repo.
 - No prebuilt firmware images are provided.
 - For 1.8" TFT display schematics, use my `User_Setup` configuration.
 
 ## building the firmware
 check the wiki for tutorial
+
+## libs
+quickly download them from my mediafire <a href="https://www.mediafire.com/file/8jha15cdbm3j1hu/libs.zip/file">here.<a>

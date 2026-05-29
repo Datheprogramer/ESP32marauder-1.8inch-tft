@@ -1,5 +1,6 @@
 //                            USER DEFINED SETTINGS
 //   1.77" ST7735 TFT (128x160) setup for TFT_eSPI
+// MY FIRMWARE WORKS THE THE 1.77inch display too so dw
 //   
 
 

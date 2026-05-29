@@ -1714,7 +1714,7 @@
       #define KIT_LED_BUILTIN 13
     #endif
 
-    #ifdef MARAUDER_KIT   // you can rename this later to MARAUDER_ST7735 - i used claude for from debug/ error now working
+    #ifdef MARAUDER_KIT   //
     
       #define HAS_ST7735
       #define SCREEN_CHAR_WIDTH 26   // 128px / 6px per char — 40 is too wide
@@ -1723,15 +1723,15 @@
       #define CHAN_PER_PAGE    7     // defined once, with value
     
       #ifndef TFT_WIDTH
-        #define TFT_WIDTH 128
+        #define TFT_WIDTH 160
       #endif
     
       #ifndef TFT_HEIGHT
-        #define TFT_HEIGHT 160
+        #define TFT_HEIGHT 128
       #endif
     
       #define GRAPH_VERT_LIM   (TFT_HEIGHT / 2 - 1)
-      #define SCREEN_ORIENTATION 0   // 1 = landscape, 0 = portrait — use 1 for Marauder UI
+      #define SCREEN_ORIENTATION 1   // 1 = landscape, 0 = portrait — use 1 for Marauder UI
       #define EXT_BUTTON_WIDTH 0
       #define CHAR_WIDTH       6
 
@@ -1748,7 +1748,7 @@
       #define TEXT_HEIGHT              (TFT_HEIGHT / 10)
     
       #define BOT_FIXED_AREA 0
-      #define TOP_FIXED_AREA 10   // was 16 — reduced so logo isn't clipped
+      #define TOP_FIXED_AREA 12   // was 16 — reduced so logo isn't clipped
     
       #define YMAX TFT_HEIGHT
     
@@ -1783,7 +1783,7 @@
     
       //#define KIT_LED_BUILTIN 2
     
-    #endif // MARAUDER_KIT
+    #endif // MARAUDER_KIT 5/28/2026 : fixed the gui selects out of bound
   
     #ifdef MARAUDER_MINI
       #define CHAN_PER_PAGE 7

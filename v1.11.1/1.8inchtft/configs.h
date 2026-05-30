@@ -1721,15 +1721,15 @@
       #define CHAN_PER_PAGE    7     // defined once, with value
     
       #ifndef TFT_WIDTH
-        #define TFT_WIDTH 160
+        #define TFT_WIDTH 128
       #endif
     
       #ifndef TFT_HEIGHT
-        #define TFT_HEIGHT 128
+        #define TFT_HEIGHT 160
       #endif
     
       #define GRAPH_VERT_LIM   (TFT_HEIGHT / 2 - 1)
-      #define SCREEN_ORIENTATION 1   // 1 = landscape, 0 = portrait — use 1 for Marauder UI
+      #define SCREEN_ORIENTATION 0 // vertical ui   // 1 = landscape, 0 = portrait
       #define EXT_BUTTON_WIDTH 0
       #define CHAR_WIDTH       6
 
@@ -1748,26 +1748,27 @@
       #define BOT_FIXED_AREA 0
       #define TOP_FIXED_AREA 12   // was 16 — reduced so logo isn't clipped
     
-      #define YMAX TFT_HEIGHT
+      #define YMAX TFT_HEIGHT //def
     
-      #define minimum(a,b) (((a) < (b)) ? (a) : (b))
+      #define minimum(a,b) (((a) < (b)) ? (a) : (b)) // test
     
-      #define MENU_FONT &FreeMono9pt7b
+      #define MENU_FONT &FreeMono9pt7b // ok 
     
-      #define BUTTON_SCREEN_LIMIT 4
-      #define BUTTON_ARRAY_LEN    4
+      #define BUTTON_SCREEN_LIMIT 10 // the buttons menu covers the whole screen (skip)
+      #define BUTTON_ARRAY_LEN    10 // same here
     
       #define STATUS_BAR_WIDTH (TFT_WIDTH / 12)   // was TFT_HEIGHT/16 — wrong axis
     
-      #define LVGL_TICK_PERIOD 6
+      #define LVGL_TICK_PERIOD 6 // 5 or 6, build  & test 
     
       // Button frame — FRAME_X 100 was off screen on 128px wide display
       #define FRAME_X 14
       #define FRAME_Y 60
       #define FRAME_W 100
       #define FRAME_H 40
-    
-      #define REDBUTTON_X  FRAME_X
+      // ^ : i got from the marauder mini configs
+      // same for this one :
+      #define REDBUTTON_X  FRAME_X 
       #define REDBUTTON_Y  FRAME_Y
       #define REDBUTTON_W  (FRAME_W / 2)
       #define REDBUTTON_H  FRAME_H
@@ -1776,8 +1777,9 @@
       #define GREENBUTTON_Y FRAME_Y
       #define GREENBUTTON_W (FRAME_W / 2)
       #define GREENBUTTON_H FRAME_H
+      // no idea
     
-      #define STATUSBAR_COLOR 0x4A49
+      #define STATUSBAR_COLOR 0x4A49 default color
     
       //#define KIT_LED_BUILTIN 2
     

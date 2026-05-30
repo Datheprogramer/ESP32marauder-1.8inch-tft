@@ -1723,15 +1723,15 @@
       #define CHAN_PER_PAGE    7     // defined once, with value
     
       #ifndef TFT_WIDTH
-        #define TFT_WIDTH 160
+        #define TFT_WIDTH 128
       #endif
     
       #ifndef TFT_HEIGHT
-        #define TFT_HEIGHT 128
+        #define TFT_HEIGHT 160
       #endif
     
       #define GRAPH_VERT_LIM   (TFT_HEIGHT / 2 - 1)
-      #define SCREEN_ORIENTATION 1   // 1 = landscape, 0 = portrait — use 1 for Marauder UI
+      #define SCREEN_ORIENTATION 0   // 1 = landscape, 0 = portrait — use 1 for Marauder UI
       #define EXT_BUTTON_WIDTH 0
       #define CHAR_WIDTH       6
 
@@ -1756,8 +1756,8 @@
     
       #define MENU_FONT &FreeMono9pt7b
     
-      #define BUTTON_SCREEN_LIMIT 4
-      #define BUTTON_ARRAY_LEN    4
+      #define BUTTON_SCREEN_LIMIT 10
+      #define BUTTON_ARRAY_LEN    10
     
       #define STATUS_BAR_WIDTH (TFT_WIDTH / 12)   // was TFT_HEIGHT/16 — wrong axis
     

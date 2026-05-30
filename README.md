@@ -16,4 +16,4 @@ A collection of my custom builds for [ESP32 Marauder](https://github.com/justcal
 check the wiki for tutorial
 
 ## libs
-quickly download them from my mediafire <a href="https://www.mediafire.com/file/ujemzw0fmb6femt/libraries_for_building_esp32_marauder.zip/file">here.<a> (err,)
+quickly download them from my mediafire <a href="https://www.mediafire.com/file/ujemzw0fmb6femt/libraries_for_building_esp32_marauder.zip/file">here.<a>
